@@ -20,4 +20,4 @@ Este trabalho visa não apenas a construção de uma pipeline eficiente e escal�
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte **[Implantação](https://ozielsilveira.github.io/data-engineering-project/)** para saber como implantar o projeto.
+**[Clique aqui](https://ozielsilveira.github.io/data-engineering-project/)** para saber como implantar o projeto.
