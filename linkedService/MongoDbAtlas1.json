@@ -5,10 +5,10 @@
 		"annotations": [],
 		"type": "MongoDbAtlas",
 		"typeProperties": {
-			"connectionString": "mongodb+srv://jeanzin777:@cluster0.99n0ivi.mongodb.net/?appname=Cluster0;w=majority;retryWrites=true",
+			"connectionString": "mongodb+srv://visitor:@cluster0.99n0ivi.mongodb.net/?appname=Cluster0;w=majority;retryWrites=true",
 			"database": "eng_dados",
 			"driverVersion": "v2",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNZTkFQU0VARUNGNThCMzUtRTcxRi00MjEzLUI1QjgtOTMxMURBQkQ1Q0Q4XzU3NzkwYWMwLWMwNTMtNDE3Yy1hYzM4LWQ4NzIyNDRjNGJjMyINCn0="
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNZTkFQU0VARUNGNThCMzUtRTcxRi00MjEzLUI1QjgtOTMxMURBQkQ1Q0Q4XzAwNThjZTBkLWJkZTQtNGEzMS05NTAxLTY0OWEwNjliMWFmYyINCn0="
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
