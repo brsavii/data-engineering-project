@@ -15,3 +15,9 @@ Este projeto abrange todo o processo de construção de uma robusta pipeline de 
 - **Integração com Power BI**: Conexão e visualização dos dados transformados no Power BI, permitindo a criação de dashboards interativos e relatórios detalhados.
 
 Este trabalho visa não apenas a construção de uma pipeline eficiente e escalável, mas também a garantia de que cada etapa do processo seja executada com precisão e alinhada às melhores práticas da engenharia de dados.
+
+## Documentação do projeto
+
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+
+Consulte **[Implantação](https://ozielsilveira.github.io/data-engineering-project/)** para saber como implantar o projeto.
