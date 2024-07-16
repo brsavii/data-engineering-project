@@ -21,3 +21,62 @@ Este trabalho visa não apenas a construção de uma pipeline eficiente e escal�
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
 **[Clique aqui](https://ozielsilveira.github.io/data-engineering-project/)** para saber como implantar o projeto.
+
+## Visão geral
+- O ambiente relacional – origem – tem 7 tabelas, 10.000 linhas para cada tabela principal.
+- Foi utilizado a biblioteca Faker do Python, para gerar as massas de dados e popular o ambiente relacional.
+- A ingestão dos dados foi feita através do Azure Synapse Analytics
+- O Data Lake foi criado em cima de um object storage (cloud) usando a arquitetura medalhão (Camadas Landing, Bronze, Silver e Gold).
+- Os dados serão gravados no object storage no formato Delta Lake nas camadas Bronze, Silver e Gold.
+  A transformação será feita através do Apache Spark (Python/pyspark).
+- As funções de ingestão, transformação e movimentação dos dados entre as camadas são
+  orquestradas e agendadas através da ferramenta Azure Synapse Analytics.
+- Os dados serão disponibilizados na camada Gold no formato dimensional (OBT).
+- Foram utilizadas 4 KPIs e 2 métricas para compor o dashboard no PowerBi.
+- O dashboard consome os dados do modelo OBT, direto da camada gold.
+- A documentação completa do trabalho está publicada no MkDocs.
+
+## Ferramentas utilizadas
+
+- **[Azure](https://portal.azure.com/)** - é a plataforma de computação em nuvem da Microsoft que oferece uma ampla gama de serviços, incluindo computação, armazenamento, bancos de dados, redes e inteligência artificial, para desenvolver, gerenciar e hospedar aplicativos e serviços de maneira escalável e segura.
+- **[Power BI](https://www.microsoft.com/pt-br/power-platform/products/power-bi)** - é uma ferramenta de business intelligence da Microsoft que permite a visualização interativa de dados e a criação de relatórios e dashboards dinâmicos, ajudando as empresas a transformar dados brutos em insights acionáveis de forma fácil e intuitiva.
+- **[MongoDB](https://www.mongodb.com/)** - é um banco de dados NoSQL orientado a documentos que armazena dados em formato JSON-like, conhecido por sua flexibilidade, escalabilidade e facilidade de uso, sendo amplamente utilizado para aplicações modernas que exigem alta performance e gerenciamento eficiente de grandes volumes de dados não estruturados.
+
+## Colaboração
+Se desejar publicar suas modificações em um repositório remoto no GitHub, siga estes passos:
+
+1. Crie um novo repositório vazio no GitHub.
+2. No terminal, navegue até o diretório raiz do projeto.
+3. Execute os seguintes comandos:
+
+```bash
+git remote set-url origin https://github.com/seu-usuario/nome-do-novo-repositorio.git
+git add .
+git commit -m "Adicionar minhas modificações"
+git push -u origin master
+```
+
+Isso configurará o repositório remoto e enviará suas modificações para lá.
+
+## Collaborators
+
+- **Aluno 1** - _Criação do MongoDB e script de geração de dados_ - [Guilherme Santana](https://github.com/guirms)
+- **Aluno 2** - _Ingestão de dados e Orquestração_ - [Jean Carlos Nesi](https://github.com/JeanNesi)
+- **Aluno 3** - _Script Spark_ - [Bruna Savi](https://github.com/brsavii)
+- **Aluno 4** - _Configurar ambiente Data Lake_ - [Luigi Milanez](https://github.com/luigimilanez)
+- **Aluno 5** - _Métricas_ - [Lucas Borges Borba](https://github.com/lucasborba111)
+- **Aluno 6** - _Power BI_ - [Kauã Librelato](https://github.com/KauaLibrelato)
+- **Aluno 7** - _Documentação_ - [Oziel Silveira](https://github.com/ozielsilveira)
+
+Você também pode ver a lista de todos os [colaboradores](https://github.com/ozielsilveira/data-engineering-project/colaboradores) que participaram deste projeto.
+
+## Licença
+
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/jlsilva01/projeto-ed-satc/blob/main/LICENSE) para detalhes.
+
+## Referências
+
+[ChatGPT](https://chatgpt.com/)
+[DatasideCommunity](https://www.youtube.com/@DatasideCommunity)
+[Datasen](https://www.datensen.com/blog)
+
